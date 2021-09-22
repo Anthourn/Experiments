@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    
 </head>
 <!-- Goal: make click event, then have it trigger with keyboard -->
 <body>
+    <h1>test</h1>
+    <a href="www.google.com" id ='link' role="button" aria-label="Delete item 1">Delete</a>
+    <a href="https://www.google.com/" target="_blank" id="myLink">Google</a>
+<!-- Note: href="#" is just a shorthand here, not a recommended technique. Use progressive enhancement when possible. -->
     <div class="click">
         <form>
             <input type="textarea" id="myCheck" onmouseover="myFunction()" onclick="alert('click event occurred')">

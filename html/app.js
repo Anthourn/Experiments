@@ -18,3 +18,15 @@ function logKey(e) {
 }
 
 // not sure why the event doesnt work calling it by name, using checkbox.click() only manually.
+
+const $title = $("#link")
+console.log($title)
+$title.addClass("testing")
+$title.attr("class", "test")
+console.log($("#link").attr("id"))
+
+$("h1").click(function(){
+    $("a:first").addClass("intro");
+  });
+
+//   Jquery not working
